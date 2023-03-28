@@ -9,19 +9,18 @@ $(window).on('scroll', function () {
     }
   });
 });
-// seleciona todos os elementos <span> dentro das <li> com a classe "habilidades-item"
+
 const spans = document.querySelectorAll('#sobre-mim p');
 
-// adiciona um listener de mouseover em cada span
 spans.forEach(span => {
   span.addEventListener('mouseover', () => {
-    // muda a cor do span para vermelho (#b30000)
+    // muda a cor  para vermelho (#b30000)
     span.style.color = '#b30000';
   });
 
-  // adiciona um listener de mouseout em cada span
+  
   span.addEventListener('mouseout', () => {
-    // retorna a cor original do span (#b30000)
+     (#b30000)
     span.style.color = '#FF5A5F';
   });
 });
