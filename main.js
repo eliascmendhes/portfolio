@@ -20,7 +20,7 @@ spans.forEach(span => {
 
   
   span.addEventListener('mouseout', () => {
-     (#b30000)
+    // retorna a cor original  (#b30000)
     span.style.color = '#FF5A5F';
   });
 });
